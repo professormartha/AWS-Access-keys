@@ -1,7 +1,7 @@
 
-# aws-IAM-access-key
+# AWS-IAM-access-key
 En este tutorial mostraré los pasos para crear la clave de acceso IAM.
-El objetivo es conocer los pasos para obtener la clave de acceso y con ella configurar el acceso a CLI ***Commanda Line Interface***  desde tu terminal o desde CLoud9
+El objetivo es conocer los pasos para obtener la clave de acceso y con ella configurar el acceso a CLI ***Command Line Interface***  desde tu terminal o desde CLoud9
 
 ## Qué es la clave de acceso IAM access key  ***\(Identity and Access Management)***
 - Las claves de acceso son credenciales para un usuario de IAM
