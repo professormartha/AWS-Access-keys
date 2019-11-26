@@ -13,7 +13,7 @@ El objetivo es conocer los pasos para obtener la clave de acceso y con ella conf
 
 # Pasos para crear la clave de acceso IAM access key
 
-### 1 Con tu usuario IAM entrar a la consola de AWS
+### 1 - Con tu usuario IAM entrar a la consola de AWS
 
  - [X] Selecciona el servicio Amazon **IAM** Identity and Access Management
  - [X] En el menú de lado izquierdo selecciona la opción **Users**
@@ -23,27 +23,43 @@ El objetivo es conocer los pasos para obtener la clave de acceso y con ella conf
  - [X] Baja a tu computadora el archivo **.csv**  que contiene las llaves 
  - [X] Copiar en tu block de notas las claves de acceso :notebook:  
 
-### 2 Instalar CLI en tu computadora
+
+### 2 - Desde Cloud9
+ - [X] Selecciona el servicio Amazon Cloud9 y abre una terminal
+ - [X] Ya se encuentra instalada AWS CLI por lo que solo deberás configurar las variables de ambiente 
+ 
+ ````
+export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7Ejempo
+export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEjemplo
+export AWS_DEFAULT_REGION=us-east-1 
+ ````
+
+### 3 - Desde una terminal en tu computadora 
+
+Instala AWS CLI 
 
 ````
 pip3 install awscli --upgrade --user
 aws --version
 aws-cli/1.16.51 Python/2.7.10 Darwin/18.2.0 botocore/1.12.41
 ````
+:link: Mayor información en [AWS guia usuario para instalar CLI] (https://docs.aws.amazon.com/es_es/cli/latest/userguide/cli-chap-install.html).
 
-### 3 Desde una terminal o desde Cloud9
+### 4 - Desde una terminal 
 
  - [X] Necesitas tener lista la clave de acceso 
  - [X] Necesitas saber que región utilizarás, en este ejemplo se utilizará la región de Virginia us-east-1
  
 ```
 aws configure
-AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Access Key ID [None]: AKIAIOSFODNN7Ejemplo
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: us-east-1
 Default output format [None]: text
 ```
 :white_check_mark: si la clave de acceso es correcta, podrás comenzar a utilizar AWS CLI ***Command Line Interface***  
+
+:link: Mayor información en la [Guía de referencia de AWS CLI] (https://docs.aws.amazon.com/es_es/cli/latest/reference/).
 
 Algunos comandos que puedes utilizar 
 
@@ -60,7 +76,7 @@ Default output format [None]: text
 
 # Conclusión
 
-Es muy común utilizar el servicio CLI y las API con el uso de la clave de acceso, pero siempre debemos considerar los problemas de seguridad que tendremos al no tener cuidad en su uso.  Por lo general se recomienda el uso de los roles para lograr accesos seguros determinados para un identidad. 
+Es muy común utilizar el servicio CLI y las API con el uso de la clave de acceso, pero siempre debemos considerar los problemas de seguridad que tendremos al no tener cuidad en su uso.  Por lo general se recomienda el uso de los roles para lograr accesos seguros predeterminados para un identidad. 
 
 
 :raised_hands: @professormartha
