@@ -76,7 +76,7 @@ Default output format [None]: text
 
 # Conclusión
 
-Es muy común utilizar el servicio CLI y las API con el uso de la clave de acceso, pero siempre debemos considerar los problemas de seguridad que tendremos al no tener cuidad en su uso.  Por lo general se recomienda el uso de los roles para lograr accesos seguros predeterminados para un identidad. 
+Es muy común utilizar el servicio CLI y las API con el uso de la clave de acceso, pero siempre debemos considerar los problemas de seguridad que tendremos al no tener cuidado en su uso.  Por lo general se recomienda el uso de los roles para lograr accesos seguros predeterminados para un identidad. 
 
 
 :raised_hands: @professormartha
