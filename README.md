@@ -29,7 +29,7 @@ El objetivo es conocer los pasos para obtener la clave de acceso y con ella conf
  - [X] Ya se encuentra instalada AWS CLI por lo que solo deberás configurar las variables de ambiente 
  
  ````
-export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7Ejempo
+export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7Ejemplo
 export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEjemplo
 export AWS_DEFAULT_REGION=us-east-1 
  ````
@@ -43,7 +43,7 @@ pip3 install awscli --upgrade --user
 aws --version
 aws-cli/1.16.51 Python/2.7.10 Darwin/18.2.0 botocore/1.12.41
 ````
-:link: Mayor información en [AWS guia usuario para instalar CLI] (https://docs.aws.amazon.com/es_es/cli/latest/userguide/cli-chap-install.html).
+:link: Mayor información en [AWS guía usuario para instalar CLI](https://docs.aws.amazon.com/es_es/cli/latest/userguide/cli-chap-install.html).
 
 ### 4 - Desde una terminal 
 
@@ -53,13 +53,13 @@ aws-cli/1.16.51 Python/2.7.10 Darwin/18.2.0 botocore/1.12.41
 ```
 aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7Ejemplo
-AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEejemplo
 Default region name [None]: us-east-1
 Default output format [None]: text
 ```
 :white_check_mark: si la clave de acceso es correcta, podrás comenzar a utilizar AWS CLI ***Command Line Interface***  
 
-:link: Mayor información en la [Guía de referencia de AWS CLI] (https://docs.aws.amazon.com/es_es/cli/latest/reference/).
+:link: Mayor información en la [Guía de referencia de AWS CLI](https://docs.aws.amazon.com/es_es/cli/latest/reference/).
 
 Algunos comandos que puedes utilizar 
 
